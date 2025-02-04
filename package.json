@@ -1,11 +1,12 @@
 {
-  "name": "tugaDay15",
+  "name": "tugaday15",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon src/main.ts"
+    "dev": "nodemon src/main.ts",
+    "start": "node dist/main.js"
   },
   "keywords": [],
   "author": "",
