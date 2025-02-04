@@ -1,0 +1,31 @@
+### GET ALL
+GET http://localhost:8000/api/v1/thread
+
+### POST
+POST http://localhost:8000/api/v1/thread
+Content-Type: application/json
+
+{
+   "title": "Thread 3", 
+   "content": "Thread 3 Content", 
+   "userId": "679ad68bab19333a677c4600"
+}
+
+### PATCH
+PATCH http://localhost:8000/api/v1/thread/67a1e9a679ec32373561d0d9
+Content-Type: application/json
+
+{
+   
+    "title": "Thread Edit 2", 
+    "content": "Thread 2 Edit Content"
+
+}
+
+### DELETE
+DELETE http://localhost:8000/api/v1/thread/679adf27273fdf5394c28293
+
+### GET Detail
+GET http://localhost:8000/api/v1/thread/679adf21273fdf5394c28291
+Content-Type: application/json
+

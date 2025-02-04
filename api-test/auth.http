@@ -1,0 +1,28 @@
+# Note
+# Udah disetting 0.0.0.0 di mongo tapi tetep ga bisa buat provider plat merah
+
+
+### Registration
+POST http://localhost:8000/api/v1/registration
+Content-Type: application/json
+
+{
+    "username":"admin",
+    "email":"user2@gmail.com",
+    "password":"admin123"
+}
+
+### Login
+POST http://localhost:8000/api/v1/login
+Content-Type: application/json
+
+{
+    "email":"user2@gmail.com",
+    "password":"admin123"
+}
+
+
+### logout
+POST http://localhost:8000/api/v1/logout
+Content-Type: application/json
+

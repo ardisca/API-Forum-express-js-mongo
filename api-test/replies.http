@@ -1,0 +1,28 @@
+### GET ALL
+GET http://localhost:8000/api/v1/api/v1/replies
+
+### POST
+POST http://localhost:8000/api/v1/replies
+Content-Type: application/json
+
+{
+    "threadId":"679adf0a273fdf5394c2828c",
+    "userId":"679ad68bab19333a677c4600",
+    "content":"Replies 3"
+}
+
+### PATCH
+PATCH http://localhost:8000/api/v1/replies/679ae563fcafda3cf8dc5177
+Content-Type: application/json
+
+{
+    "content": "replies 2 Edit Content"
+}
+
+### DELETE
+DELETE http://localhost:8000/api/v1/replies/679ae56afcafda3cf8dc517c
+
+### GET Detail
+GET http://localhost:8000/api/v1/replies/679ae556fcafda3cf8dc5172
+Content-Type: application/json
+
