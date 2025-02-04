@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 import mongoose from "mongoose";
 import cookieParser from "cookie-parser";
 
-import { userRouter } from "../src/routes/user.route";
+import { userRouter } from "./routes/user.route";
 import { threadRouter } from "./routes/thread.route";
 import { repliesRouter } from "./routes/replies.route";
 import { authRouter } from "./routes/auth.router";
